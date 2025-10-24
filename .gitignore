@@ -1,0 +1,53 @@
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDE / tooling
+.vscode/
+.idea/
+**/.vs/
+*.suo
+*.user
+*.rsuser
+*.sln.docstates
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+########################
+# Client (Vue) in /client
+########################
+client/node_modules/
+client/dist/
+client/.vite/
+client/.cache/
+client/.nuxt/
+client/.turbo/
+client/.parcel-cache/
+client/coverage/
+client/.eslintcache
+client/.stylelintcache
+client/.env
+client/.env.*.local
+
+########################
+# Server (ASP.NET) in /server
+########################
+server/**/bin/
+server/**/obj/
+server/.vs/
+server/TestResults/
+# server/packages/        # uncomment only if a local packages folder exists
+
+# Local or secret configs
+server/appsettings.*.Local.json
+server/appsettings.*.Secrets.json
+server/*.csproj.user
+server/*.user
+
+# If client build is copied into server
+server/wwwroot/**
