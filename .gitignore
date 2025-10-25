@@ -37,10 +37,29 @@ client/.env.*.local
 ########################
 # Server (ASP.NET) in /server
 ########################
-server/**/bin/
-server/**/obj/
-server/.vs/
-server/TestResults/
+# .NET build + IDE
+.vs/
+**/bin/
+**/obj/
+*.suo
+*.user
+*.rsuser
+*.sln.docstates
+TestResults/
+
+# ASP.NET app files copied at build
+**/wwwroot/**
+
+# Local configs
+**/appsettings.*.Local.json
+**/appsettings.*.Secrets.json
+*.csproj.user
+
+# SQLite and other local DBs
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
 # server/packages/        # uncomment only if a local packages folder exists
 
 # Local or secret configs
