@@ -1,12 +1,122 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\dzber\\Documents\\Projects\\ProRecipe\\Server\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{168DDD87-021D-4E1A-BA03-7BF145B86BEF}|Server.csproj|c:\\users\\dzber\\documents\\projects\\prorecipe\\server\\controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{168DDD87-021D-4E1A-BA03-7BF145B86BEF}|Server.csproj|solutionrelative:controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{168DDD87-021D-4E1A-BA03-7BF145B86BEF}|Server.csproj|c:\\users\\dzber\\documents\\projects\\prorecipe\\server\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{168DDD87-021D-4E1A-BA03-7BF145B86BEF}|Server.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{168DDD87-021D-4E1A-BA03-7BF145B86BEF}|Server.csproj|c:\\users\\dzber\\documents\\projects\\prorecipe\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{168DDD87-021D-4E1A-BA03-7BF145B86BEF}|Server.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{168DDD87-021D-4E1A-BA03-7BF145B86BEF}|Server.csproj|c:\\users\\dzber\\documents\\projects\\prorecipe\\server\\recipes.db||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{168DDD87-021D-4E1A-BA03-7BF145B86BEF}|Server.csproj|solutionrelative:recipes.db||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{168DDD87-021D-4E1A-BA03-7BF145B86BEF}|Server.csproj|c:\\users\\dzber\\documents\\projects\\prorecipe\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{168DDD87-021D-4E1A-BA03-7BF145B86BEF}|Server.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{168DDD87-021D-4E1A-BA03-7BF145B86BEF}|Server.csproj|c:\\users\\dzber\\documents\\projects\\prorecipe\\server\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{168DDD87-021D-4E1A-BA03-7BF145B86BEF}|Server.csproj|solutionrelative:models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "recipes.db",
+              "DocumentMoniker": "C:\\Users\\dzber\\Documents\\Projects\\ProRecipe\\Server\\recipes.db",
+              "RelativeDocumentMoniker": "recipes.db",
+              "ToolTip": "C:\\Users\\dzber\\Documents\\Projects\\ProRecipe\\Server\\recipes.db",
+              "RelativeToolTip": "recipes.db",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAPAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJESURBVEhLtZVPSJNhHMc/e7e5lgSLDvmng\u002BmSpRUmCWmEipeMQurQMRSPQhRzWQMbYWgy\u002BnOI6BB48FxdQggKjwbSf8KihSuTOoXbym2\u002Bz/s\u002BHdLYnvaYS/zc3u/z/fF53n88sJFIKR251xcHQrMgq3IzPY64sDkRjUZfqiu5KIJ\u002BeXloODfSEhkM4/V6F1I/M\u002B2rSQw1KIbunl7fltJNk6FQqEFdW2FdgrLyin9K1iVgDRKXGqiYwmLy6Qtsy6bjUCNu1\u002B8Rn89HZDCcW/W5DCaBrbmhVrCYyRKf\u002B4otJZl0Btu2ic1\u002B4ftCgob6Ws4Fz6sjRAbDPjXTPqJXMzFin\u002BaJxecwhUAIwZt3H/g8/41nr2fUuhatoM5fheEAISw62w7S2d6MWBbtDfjVuhatQEpJOp3BEgIpJVJKhBA4DbClrda1aAVv339c3rHJ/Ykn3Hv4GEsIFtNppqa1/9VfaAUN9bVUbN/GnkANQpgIyySwq5q62hpaW5rUuhatoHSzl9bmA\u002Bz2V\u002BM0DFyGQeO\u002BOlqa9nN7bJyRG7fUkYJoP9MVSkrcnD7VBcCDiUdMTT8nlUohzCX6ggN0tB3m5PFj6tgftHdQCI/HQzKZ5Eo4xMilMIlEAmmt/sKLElhLJuZSFiltpLQxs1mEEGotj6IEtrRwO52c6b9A39l\u002BSlxOfqSSai2PogRdR49w52aUyvIydlSWMT52l96ebrWWR1GCFaLDQ1wfvarGBfkvQTFsuEA5k4Oz4FjjoV8IGR8ZvbZTTTeUX7HY4yPt\u002Bo73AAAAAElFTkSuQmCC",
+              "WhenOpened": "2025-10-25T18:46:07.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RecipesController.cs",
+              "DocumentMoniker": "C:\\Users\\dzber\\Documents\\Projects\\ProRecipe\\Server\\Controllers\\RecipesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RecipesController.cs",
+              "ToolTip": "C:\\Users\\dzber\\Documents\\Projects\\ProRecipe\\Server\\Controllers\\RecipesController.cs*",
+              "RelativeToolTip": "Controllers\\RecipesController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T18:36:27.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dzber\\Documents\\Projects\\ProRecipe\\Server\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\dzber\\Documents\\Projects\\ProRecipe\\Server\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T12:17:24.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dzber\\Documents\\Projects\\ProRecipe\\Server\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\dzber\\Documents\\Projects\\ProRecipe\\Server\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-24T20:19:28.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dzber\\Documents\\Projects\\ProRecipe\\Server\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\dzber\\Documents\\Projects\\ProRecipe\\Server\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T20:18:10.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "C:\\Users\\dzber\\Documents\\Projects\\ProRecipe\\Server\\Models\\Recipe.cs",
+              "RelativeDocumentMoniker": "Models\\Recipe.cs",
+              "ToolTip": "C:\\Users\\dzber\\Documents\\Projects\\ProRecipe\\Server\\Models\\Recipe.cs",
+              "RelativeToolTip": "Models\\Recipe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T20:02:09.647Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
