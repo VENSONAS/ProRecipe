@@ -6,7 +6,7 @@ ehthumbs.db
 # IDE / tooling
 .vscode/
 .idea/
-**/.vs/
+.vs/
 *.suo
 *.user
 *.rsuser
@@ -18,9 +18,7 @@ npm-debug.log*
 yarn-debug.log*
 pnpm-debug.log*
 
-########################
-# Client (Vue) in /client
-########################
+# Node client (if present)
 client/node_modules/
 client/dist/
 client/.vite/
@@ -34,20 +32,12 @@ client/.stylelintcache
 client/.env
 client/.env.*.local
 
-########################
-# Server (ASP.NET) in /server
-########################
-# .NET build + IDE
-.vs/
+# .NET build + test artifacts (any folder)
 **/bin/
 **/obj/
-*.suo
-*.user
-*.rsuser
-*.sln.docstates
-TestResults/
+**/TestResults/
 
-# ASP.NET app files copied at build
+# ASP.NET static output (if you copy builds here)
 **/wwwroot/**
 
 # Local configs
@@ -55,18 +45,8 @@ TestResults/
 **/appsettings.*.Secrets.json
 *.csproj.user
 
-# SQLite and other local DBs
+# Local databases
 *.db
 *.db-*
 *.sqlite
 *.sqlite3
-# server/packages/        # uncomment only if a local packages folder exists
-
-# Local or secret configs
-server/appsettings.*.Local.json
-server/appsettings.*.Secrets.json
-server/*.csproj.user
-server/*.user
-
-# If client build is copied into server
-server/wwwroot/**
