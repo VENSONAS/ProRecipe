@@ -32,12 +32,6 @@ client/.stylelintcache
 client/.env
 client/.env.*.local
 
-<<<<<<< HEAD
-# .NET build + test artifacts (any folder)
-**/bin/
-**/obj/
-**/TestResults/
-=======
 ########################
 # Server (ASP.NET) in /server
 ########################
@@ -65,7 +59,6 @@ TestResults/
 *.sqlite
 *.sqlite3
 # server/packages/        # uncomment only if a local packages folder exists
->>>>>>> Database
 
 # ASP.NET static output (if you copy builds here)
 **/wwwroot/**
@@ -80,6 +73,3 @@ TestResults/
 *.db-*
 *.sqlite
 *.sqlite3
-.vs/
-*.db
-*.db-*
