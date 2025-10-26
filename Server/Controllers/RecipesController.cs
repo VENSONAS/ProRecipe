@@ -20,11 +20,11 @@ namespace Server.Controllers
         {
             _context = context;
         }
-
+        
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Recipe>>> GetRecipes()
         {
-            Console.WriteLine(_context.Database.GetDbConnection().DataSource);
+            //Console.WriteLine(_context.Database.GetDbConnection().DataSource);
             return await _context.Recipes.ToListAsync();
         }
 
