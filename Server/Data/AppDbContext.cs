@@ -17,7 +17,9 @@ namespace Server.Data
              .HasForeignKey(i => i.RecipeId)
              .OnDelete(DeleteBehavior.Cascade);
 
-            b.Entity<Ingredient>().Property(i => i.Weight).HasPrecision(10, 2);
+            b.Entity<Ingredient>().Property(i => i.Weight).HasPrecision(5, 2);
+            b.Entity<Ingredient>().Property(i => i.ProteinPer100).HasPrecision(5, 2);
+            b.Entity<Ingredient>().Property(i => i.CaloriePer100).HasPrecision(5, 2);
             b.Entity<Recipe>().HasIndex(r => r.Name);
             b.Entity<Ingredient>().HasIndex(i => new { i.RecipeId, i.Name });
         }

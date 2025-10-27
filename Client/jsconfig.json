@@ -1,8 +1,16 @@
 {
   "compilerOptions": {
-    "paths": {
-      "@/*": ["./src/*"]
-    }
+    "allowJs": true,
+    "checkJs": false,
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "baseUrl": ".",
+    "paths": { "@/*": ["src/*"] },
+    "types": ["vite/client"]
   },
-  "exclude": ["node_modules", "dist"]
+ "vueCompilerOptions": {
+    "globalTypesPath": "./node_modules/@vue/runtime-core/dist/runtime-core.d.ts"
+  },
+  "include": ["src/**/*"]
 }

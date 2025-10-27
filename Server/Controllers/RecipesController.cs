@@ -24,14 +24,13 @@ namespace Server.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Recipe>>> GetRecipes()
         {
-            //Console.WriteLine(_context.Database.GetDbConnection().DataSource);
-            return await _context.Recipes.ToListAsync();
+            return await _context.Recipes.Include(r => r.Ingredients).ToListAsync();
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<Recipe>> GetRecipe(int id)
         {
-            var recipe = await _context.Recipes.FindAsync(id);
+            var recipe = await _context.Recipes.Include(r => r.Ingredients).FirstOrDefaultAsync(r => r.Id == id);
 
             if (recipe == null)
             {
