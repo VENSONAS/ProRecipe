@@ -1,23 +1,12 @@
 <template>
   <div>
-    <ul>
-      <li v-for="recipe in recipes" :key="recipe.id">
-        {{ recipe.name }}
-        <ul>
-          <li
-            v-for="ingredient in recipe.ingredients"
-            :key="ingredient.fdcId || `${recipe.id}-${ingredient.name}`"
-          >
-            - {{ ingredient.name }}: {{ ingredient.weight }}
-          </li>
-        </ul>
-      </li>
-    </ul>
+    <recipe-preview-component v-for="recipe in recipes" :key="recipe.id" :recipe="recipe" />
   </div>
 </template>
 
 <script setup>
 import { ref } from 'vue'
+import recipePreviewComponent from './recipe-item-component.vue'
 
 const API_URL = 'https://localhost:7257/api/recipes'
 const recipes = ref([])

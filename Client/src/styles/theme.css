@@ -1,0 +1,38 @@
+:root{
+  --color-primary:#2ECC71;
+  --color-secondary:#F5B041;
+  --color-accent:#E74C3C;
+  --color-bg:#FAFAFA;
+  --color-text:#1C1C1C;
+
+  --radius:12px;
+  --spacing:12px;
+}
+
+html, body, #app {
+  height: 100%;
+}
+
+html, body {
+  margin: 0;
+  background: var(--color-bg);
+}
+
+#app {
+  min-height: 100dvh; /* ensures full viewport on mobile too */
+  background: var(--color-bg); /* reinforces for SPA root */
+}
+
+
+
+<!-- Clean & Modern (Minimalist)
+
+Primary: #2ECC71 (Soft green)
+
+Secondary: #F5B041 (Warm amber)
+
+Background: #FAFAFA
+
+Text: #1C1C1C
+
+Accent: #E74C3C (Tomato red) -->
