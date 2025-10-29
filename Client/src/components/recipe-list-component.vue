@@ -1,12 +1,18 @@
 <template>
   <div>
-    <li v-for="recipe in recipes">
-      {{ recipe.name }}
-      <li v-for="ingredient in recipe.ingredients">
-        - {{ ingredient.name }}: {{ ingredient.weight }}g
-
+    <ul>
+      <li v-for="recipe in recipes" :key="recipe.id">
+        {{ recipe.name }}
+        <ul>
+          <li
+            v-for="ingredient in recipe.ingredients"
+            :key="ingredient.fdcId || `${recipe.id}-${ingredient.name}`"
+          >
+            - {{ ingredient.name }}: {{ ingredient.weight }}
+          </li>
+        </ul>
       </li>
-    </li>
+    </ul>
   </div>
 </template>
 
